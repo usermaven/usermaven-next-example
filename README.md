@@ -59,7 +59,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
    // Init Usermaven
-    const usermaven: UsermavenClient = usermavenClient({
+    const usermaven = usermavenClient({
       key: "YOUR_PROJECT_KEY",
       tracking_host: "https://events.usermaven.com",
     });
