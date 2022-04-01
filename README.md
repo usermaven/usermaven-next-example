@@ -80,7 +80,7 @@ export default MyApp;
 
 ### Note
 
-By default Usermaven does not send the pageview event when SDK is initialized. The pageview track event is only fired when page/route changes. If you'd like to send an event when someone opens your website/app, you'll need to trigger the pageview event on main page.
+By default Usermaven does not send the pageview event when SDK is initialized. The pageview track event is only fired when page/route changes. If you'd like to send an event when someone opens your website/app, you'll need to trigger the pageview event on the index/main page.
 
 ```ts
  useEffect(() => {
