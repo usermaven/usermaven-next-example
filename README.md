@@ -2,6 +2,9 @@
 
 This project shows how to track events with Usermaven and Next.js using Usermaven JS SDK.
 
+This project uses Next.js v12 and the Next Pages Router. If you are using the Next App Router, please see the [Next.js App Router example](https://github.com/usermaven/usermaven-next-app-example).
+
+
 The first thing you want to do is to install the usermaven-sdk-js library in your project - so add it using your package manager:
 
 `yarn add @usermaven/sdk-js`
